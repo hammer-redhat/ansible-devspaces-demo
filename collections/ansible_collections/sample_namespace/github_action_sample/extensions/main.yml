@@ -33,7 +33,7 @@
           <head><title>Hello world!</title></head>
           <body>Hello world!</body>
           </html>
-        dest: "/var/www/html/index.html"
+        dest: /var/www/html/index.html
         mode: "0664"
       notify: Restart apache
 
