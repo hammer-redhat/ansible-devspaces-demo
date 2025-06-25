@@ -1,0 +1,10 @@
+name: Minimal CI/CD workflow for Steampunk Spotter
+on: [push]
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: xlab-steampunk/spotter-action@<version>
+        env:
+          SPOTTER_TOKEN: eb05a00b693f4ac42d98616ec5ef60ab218742736b75defaca9dca866cfd46bd0f5da4ade45cdeacfa8369cd7689071ccc1a3356f25193ec7a6a2f97fcf9f7f8
