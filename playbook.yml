@@ -5,6 +5,3 @@
   tasks:
     - name: Ping the localhost.
       ansible.builtin.ping:
-
-    - name: Another task
-      ansible.builtin.shell: whoami
