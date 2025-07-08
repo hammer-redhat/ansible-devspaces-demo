@@ -8,8 +8,7 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Scan Ansible content with different inputs
-        uses: xlab-steampunk/spotter-action@5.0.0
+        uses: xlab-steampunk/spotter-action@5.2.0
         with:
-          endpoint: https://api.spotter.steampunk.si/api
-          api_token: eb05a00b693f4ac42d98616ec5ef60ab218742736b75defaca9dca866cfd46bd0f5da4ade45cdeacfa8369cd7689071ccc1a3356f25193ec7a6a2f97fcf9f7f8
+          api_token: ${{ secrets.SPOTTER_TOKEN }}
           ansible_version: 2.16
