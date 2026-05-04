@@ -2,7 +2,7 @@
 # cspell: disable=devspaces
 schemaVersion: 2.2.2
 metadata:
-  name: devspaces-ansible-demo-pnc
+  name: devspaces-ansible-demo
 components:
   - name: tooling-container
     container:
